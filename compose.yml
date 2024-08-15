@@ -1,0 +1,9 @@
+services:
+  file-share-nginx:
+    image: nginx:1-alpine-slim
+    container_name: file-share-nginx
+    ports:
+      - '8089:80'
+    volumes:
+      - ./nginx/sites:/etc/nginx/conf.d
+      - ~/Documents:/usr/share/nginx/html
