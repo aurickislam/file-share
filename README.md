@@ -32,7 +32,7 @@ You can also download files using the `download.sh` script. The script is availa
 ./download.sh
 ```
 
-Before running the script please change the `HOST_URL` variable. And also change the file path. This script creates folder of the downloaded files.
+Before running the script please put it on the source folder of your project and change the `HOST_URL` variable. And also change the file path. This script creates folder of the downloaded files.
 
 ## download.sh
 
